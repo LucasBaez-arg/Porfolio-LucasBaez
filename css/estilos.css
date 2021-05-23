@@ -82,7 +82,7 @@ nav{
 }
 
 .info-banner h2{
-    font-size: 40px;
+    font-size: 25px;
 }
 
 
@@ -145,7 +145,7 @@ nav{
 
 .Proyecto{
     width: 600px;
-    height: 500px;
+    height: 540px;
     background-color: seashell;
     display: flex;
     flex-direction: column;
@@ -173,9 +173,20 @@ nav{
 .info{
     width: 100%;
     text-align: center;
+    color:#333333;
 }
 
+.info a{
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    padding: 36px;
+    text-align: center;
+}
 
+.info  a:hover{
+    background :#a3a3a3;
+}
 
 /*Contacto*/
 .Contenedor-Contacto{
